@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <section class="mainTable">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-4 p-0">
+                    <img class="d-flex justify-content-center m-auto" src="./image/logo.png" alt="Logo">
+                    <nav class="mainTable__menu">
+                        <div class="mainTable__menu--first">
+                            <ul>
+                                <li class="active"><a class="active" href="#"><i class="fas fa-users"></i> accounts</a></li>
+                                <li><a href="#"><i class="fas fa-project-diagram"></i> networks</a></li>
+                                <li><a href="#"><i class="far fa-dot-circle"></i> targeting</a></li>
+                                <li><a href="#"><i class="fas fa-bullhorn"></i> campaigns</a></li>
+                                <li><a href="#"><i class="fas fa-egg"></i> generators</a></li>
+                                <li><a href="#"><i class="bi bi-graph-up"></i> finace</a></li>
+                                <li><a href="#"><i class="bi bi-border-width"></i> logs</a></li>
+                            </ul>
+                        </div>
+                        <hr/>
+                        <div class="mainTable__menu__last">
+                            <ul>
+                                <li><a href="#"><i class="bi bi-person-fill"></i> my account</a></li>
+                                <li><a href="#"><i class="bi bi-gear-fill"></i> settings</a></li>
+                                <li><a href="#"><i class="bi bi-door-open-fill"></i> logout</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-md-10 col-sm-8 mainTable__right p-0">
+                    <div class="mainTable__right--search d-flex justify-content-center">
+                        <input type="text" name="search" id="" placeholder="&#xf002; Search" class="fa form-control w-25 text-center">
+                    </div>
+                    <div class="table-responsive px-5">
+                        <table class="table mainTable__right--table">
+                            <thead class="text-center">
+                              <tr class='align-middle'>
+                                <th scope="col"></th>
+                                <th scope="col">username</th>
+                                <th scope="col">followers</th>
+                                <th scope="col">following</th>
+                                <th scope="col">engagement Ratio</th>
+                                <th scope="col">following ratio</th>
+                                <th scope="col">avg. likes</th>
+                                <th scope="col">avg. comments</th>
+                                <th scope="col">max likes</th>
+                                <th scope="col">max comments</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="align-middle">
+                                <th scope="row" class="mainTable__right--table--th">
+                                    <input type="checkbox" name="checkbox" class="form-check-input mt-lg-2" id=""><img  style="width: 42%;" src="./image/man.png" alt="">
+                                </th>
+                                <td>john.don.doe</td>
+                                <td>64</td>
+                                <td>64</td>
+                                <td>1:1</td>
+                                <td>1:1</td>
+                                <td>100</td>
+                                <td>150</td>
+                                <td>200</td>
+                                <td>200</td>
+                              </tr>
+                              <tr class='align-middle'>
+                                <th scope="row" class="mainTable__right--table--th">
+                                    <input type="checkbox" name="checkbox" class="form-check-input mt-lg-2" id=""><img style="width: 42%;" src="./image/man.png" alt="">
+                                </th>
+                                <td>john.don.doe</td>
+                                <td>64</td>
+                                <td>64</td>
+                                <td>1:1</td>
+                                <td>1:1</td>
+                                <td>100</td>
+                                <td>150</td>
+                                <td>200</td>
+                                <td>200</td>
+                              </tr>
+                              <tr class="align-middle">
+                                <th scope="row" class="mainTable__right--table--th">
+                                    <input type="checkbox" name="checkbox" class="form-check-input mt-lg-2" id=""><img style="width: 42%;" src="./image/man.png" alt="">
+                                </th>
+                                <td>john.don.doe</td>
+                                <td>64</td>
+                                <td>64</td>
+                                <td>1:1</td>
+                                <td>1:1</td>
+                                <td>100</td>
+                                <td>150</td>
+                                <td>200</td>
+                                <td>200</td>
+                              </tr>
+                              <tr class="align-middle">
+                                <th scope="row" class="mainTable__right--table--th">
+                                    <input type="checkbox" name="checkbox" class="form-check-input mt-lg-2" id=""><img style="width: 42%;" src="./image/man.png" alt="">
+                                </th>
+                                <td>john.don.doe</td>
+                                <td>64</td>
+                                <td>64</td>
+                                <td>1:1</td>
+                                <td>1:1</td>
+                                <td>100</td>
+                                <td>150</td>
+                                <td>200</td>
+                                <td>200</td>
+                              </tr>
+                              <tr class="align-middle">
+                                <th scope="row" class="mainTable__right--table--th">
+                                    <input type="checkbox" name="checkbox" class="form-check-input mt-lg-2" id=""><img style="width: 42%;" src="./image/man.png" alt="">
+                                </th>
+                                <td>john.don.doe</td>
+                                <td>64</td>
+                                <td>64</td>
+                                <td>1:1</td>
+                                <td>1:1</td>
+                                <td>100</td>
+                                <td>150</td>
+                                <td>200</td>
+                                <td>200</td>
+                              </tr>
+                              <tr class="align-middle">
+                                <th scope="row" class="mainTable__right--table--th">
+                                    <input type="checkbox" name="checkbox" class="form-check-input mt-lg-2" id=""><img style="width: 42%;" src="./image/man.png" alt="">
+                                </th>
+                                <td>john.don.doe</td>
+                                <td>64</td>
+                                <td>64</td>
+                                <td>1:1</td>
+                                <td>1:1</td>
+                                <td>100</td>
+                                <td>150</td>
+                                <td>200</td>
+                                <td>200</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                      <div class="mainTable__right--plus py-3">
+                        <div class="row">
+                            <div class="col">
+                                <img src="./image/del.png" alt="delete busket"> 
+                            </div>
+                            <div class="col">
+                                <img src="./image/plus.png" alt="add icon">
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
