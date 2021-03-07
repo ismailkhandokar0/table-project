@@ -1,18 +1,10 @@
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 768px) {
   .mainTable__menu ul li a {
-    font-size: 1.1rem  !important; }
+    font-size: 1.4rem  !important; }
     .mainTable__menu ul li a i {
-      font-size: 1.5rem; }
-  __right--search--table--th input {
-    margin: 0  !important; } }
-
-@media only screen and (max-width: 992px) {
-  .mainTable__menu ul li a {
-    font-size: .7rem  !important; }
-    .mainTable__menu ul li a i {
-      font-size: 1rem !important; }
-  .mainTable__right--table--th img {
-    display: none  !important; } }
+      font-size: 1.7rem; }
+  .mainTable__right--search input {
+    font-size: 1.4rem  !important; } }
 
 @media only screen and (max-width: 576px) {
   .mainTable__menu ul li a {
@@ -71,8 +63,18 @@ body {
         font-weight: 800; }
       .mainTable__right--table tr {
         height: 8rem; }
+      .mainTable__right--table--th ul {
+        min-width: 7rem;
+        margin: 0 !important;
+        padding: 0 !important; }
+        .mainTable__right--table--th ul::after {
+          content: "";
+          display: table;
+          clear: both; }
+        .mainTable__right--table--th ul li {
+          list-style: none;
+          float: left; }
       .mainTable__right--table--th input {
-        margin-top: 0;
         font-size: 1.7rem; }
     .mainTable__right--plus {
       max-width: 95%;

@@ -2,33 +2,33 @@
 
 
 // main table  
-.mainTable{
-    &__menu{
-        ul{
-            li{
-                a{
-                    font-size: 1.1rem  !important;
-                    i{
-                        font-size: 1.5rem;
-                    }
-                }
-            }
-        }
-    }
-}
+// .mainTable{
+//     &__menu{
+//         ul{
+//             li{
+//                 a{
+//                     font-size: 1.1rem  !important;
+//                     i{
+//                         font-size: 1.5rem;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
 
 
-&__right{
-    &--search{
-        &--table{
-            &--th{
-                input{
-                    margin: 0  !important;
-                }
-            }
-        }
-    }
-}
+// &__right{
+//     &--search{
+//         &--table{
+//             &--th{
+//                 input{
+//                     margin: 0  !important;
+//                 }
+//             }
+//         }
+//     }
+// }
 
 
 }

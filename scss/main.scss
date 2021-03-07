@@ -4,6 +4,7 @@
 @import "./1200";
 @import "./992";
 @import "./768";
+@import "./576";
 
 //reset setting
 * {
@@ -88,8 +89,21 @@ $primary-color: #4b4b4b;
                 height: 8rem;
             }
             &--th {
+                ul {
+                    min-width:7rem;
+                    margin:0 !important;
+                    padding:0 !important;
+                    &::after{
+                        content:"";
+                        display:table;
+                        clear: both;
+                    }
+                    li{
+                        list-style: none;
+                        float:left;
+                    }
+                }
                 input {
-                    margin-top: 0;
                     font-size: 1.7rem;
                 }
                 
